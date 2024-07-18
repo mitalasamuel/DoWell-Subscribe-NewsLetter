@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col h-screen p-8 items-center justify-center">
-      <img src="/true.webp" alt="" className="mb-4" />
+      <img src="./true.webp" alt="" className="mb-4" />
       <h2 className="text-3xl font-bold mb-6">
         Sign up to the DOWELL Newsletter
       </h2>
