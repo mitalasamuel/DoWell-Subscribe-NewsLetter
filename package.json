@@ -1,8 +1,10 @@
 {
-  "name": "newsletter",
+  "homepage": "https://mitalasamuel/github.io/DoWell-Subscribe-NewsLetter",
+  "name": "DoWell-Subscribe-NewsLetter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
