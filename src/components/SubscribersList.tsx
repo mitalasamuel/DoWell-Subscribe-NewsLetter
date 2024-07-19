@@ -27,6 +27,7 @@ export default function SubscribersList({
 							<th className='py-3'>First Name</th>
 							<th className='py-3'>Last Name</th>
 							<th className='py-3'>Email Address</th>
+							<th className='py-3'>Topics</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -35,6 +36,7 @@ export default function SubscribersList({
 								<td className='py-3'>{subscriber.data.firstName}</td>
 								<td className='py-3'>{subscriber.data.lastName}</td>
 								<td className='py-3'>{subscriber.data.email}</td>
+								<td className='py-3'>{subscriber.data.topics}</td>
 							</tr>
 						))}
 					</tbody>
