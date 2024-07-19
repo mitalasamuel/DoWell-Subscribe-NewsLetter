@@ -1,4 +1,3 @@
-import { SubscribersData } from "../../util";
 import { NextRequest, NextResponse } from "next/server";
 import { SubscribersData } from "../../util";
 import { Novu } from "@novu/node";
